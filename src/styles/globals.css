@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PlusJakataSan";
+  src: url("/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf")
+    format("woff2"); /* Modern Browsers */
+
+  /* Add more source formats if needed */
+}
+
+body {
+  font-family: sans-serif;
+}
+
+body {
+  /* font-family: 'Plus Jakarta Sans', sans-serif; */
+}
+.backImg {
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+  background-image: url("/first-bg.png");
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  background-image: url("/footer.png");
+}
