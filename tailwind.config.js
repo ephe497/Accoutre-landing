@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         PlusJakataSan: "PlusJakataSan",
+        Josefin: "Josefin"
       },
     },
   },
