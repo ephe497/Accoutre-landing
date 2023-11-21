@@ -1,5 +1,5 @@
 
-import { API } from '@/agent'
+// import { API } from '@/agent'
 import { data } from 'autoprefixer'
 import Cookies from 'js-cookie'
 
@@ -28,27 +28,27 @@ export const saveUserSession = (data: any) => {
 }
 
 
-export const getUserSession = async () => {
-    let user;
-    const token = getToken()
-    if (!token) return null
-    let currentSession = Cookies.get(sessionKey)
-    if (currentSession) {
-        currentSession = atob(currentSession)
-        return JSON.parse(currentSession);
-    }
-    else {
-        try {
-            const { data: { data } } = await API.get("user", "/me", {})
-            saveUserSession(data)
+// export const getUserSession = async () => {
+//     let user;
+//     const token = getToken()
+//     if (!token) return null
+//     let currentSession = Cookies.get(sessionKey)
+//     if (currentSession) {
+//         currentSession = atob(currentSession)
+//         return JSON.parse(currentSession);
+//     }
+//     else {
+//         try {
+//             const { data: { data } } = await API.get("user", "/me", {})
+//             saveUserSession(data)
 
-            return data
+//             return data
 
-        } catch (error) {
-            return null
-        }
+//         } catch (error) {
+//             return null
+//         }
 
-    }
+//     }
 
 
-}
+// }
