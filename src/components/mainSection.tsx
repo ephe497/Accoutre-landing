@@ -12,13 +12,12 @@ const styling = {
 };
 console.log(img, "mamamamam");
 
-export default function MainSection() {
-  const [showModal, setShowModal] = useState(false)
+export default function MainSection({toggleModal}) {
 
   return (
     <>
       <div className="backImg pb-o md:pb-[50px]">
-        <Header />
+        <Header toggleModal={toggleModal} />
 
         <ContentWrapper>
           <div className=" block md:grid grid-cols-2 text-center">
@@ -38,14 +37,12 @@ export default function MainSection() {
         <div className="flex justify-center my-[26px] mb-[33px]">
           <button className="bg-[#4CBE42] font-PlusJakataSan font-[600] block text-[12px] md:text-[11px] text-white py-[10px] md:py-[12px] px-[10px] md:px-[28px] rounded-[7px] "
           style={{boxShadow:'4px 4px 4px black'}}
-          onClick={()=>{
-            setShowModal(!showModal)
-                }}>
+          onClick={toggleModal}>
             Join The Waitlist
           </button>
         </div>
         <Map />
-        {showModal && <PopUp />}
+        {/* {showModal && <PopUp />} */}
 
       </div>
     </>

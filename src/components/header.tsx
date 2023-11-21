@@ -1,13 +1,9 @@
 import React, { useState, useEffect } from "react";
 import PopUp from "./popUp";
 
-export default function Header() {
+export default function Header({toggleModal}) {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [showModal, setShowModal] = useState(false)
-
-  const toggleModal = () =>{
-    setShowModal(!showModal)
-  }
+  
 
   return (
     <>
@@ -25,9 +21,7 @@ export default function Header() {
           style={{
             boxShadow:'4px 4px 4px black'
           }}
-          onClick={()=>{
-            setShowModal(!showModal)
-                }}>
+          onClick={toggleModal}>
             Join The Waitlist
           </button>
 
@@ -48,16 +42,13 @@ export default function Header() {
           style={{
             boxShadow:'4px 4px 4px black'
           }}
-          onClick={()=>{
-            setShowModal(!showModal)
-                }}>
+          onClick={toggleModal}>
             Join The Waitlist
           </button>
         </div>
        
         </div> 
 
-        {showModal && <PopUp />}
   
       </div>
       <div

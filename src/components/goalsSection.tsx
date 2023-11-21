@@ -32,22 +32,22 @@ return(
     
     
     <div className=" hidden md:flex justify-between mt-4 md:mt-0">
-        <img src="poverty.png" className="w-[13%] h-[fit-content] " />
-        <img src="hunger.png" className="w-[13%] h-[fit-content] " />
-        <img src="growth.png" className="w-[13%] h-[fit-content] " />
-        <img src="industry.png" className="w-[13%] h-[fit-content] " />
-        <img src="reduced.png" className="w-[13%] h-[fit-content] " />
+        <img src="poverty.png" className="w-[13%] " />
+        <img src="hunger.png" className="w-[13%] " />
+        <img src="growth.png" className="w-[13%] " />
+        <img src="industry.png" className="w-[13%] " />
+        <img src="reduced.png" className="w-[13%] " />
 
     </div>
 </div>
     </div>
     <div className="w-[90%] mx-auto block md:hidden ">
     <div className="flex md:hidden justify-between mt-4 md:mt-0">
-        <img src="poverty.png" className="w-[13%] h-[fit-content] " />
-        <img src="hunger.png" className="w-[13%] h-[fit-content] " />
-        <img src="growth.png" className="w-[13%] h-[fit-content] " />
-        <img src="industry.png" className="w-[13%] h-[fit-content] " />
-        <img src="reduced.png" className="w-[13%] h-[fit-content] " />
+        <img src="poverty.png" className="w-[13%] " />
+        <img src="hunger.png" className="w-[13%] " />
+        <img src="growth.png" className="w-[13%] " />
+        <img src="industry.png" className="w-[13%] " />
+        <img src="reduced.png" className="w-[13%] " />
 
     </div>
     </div>

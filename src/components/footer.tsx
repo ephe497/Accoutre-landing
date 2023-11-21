@@ -27,10 +27,10 @@ return(
             <p className=" mt-[14px] font-Josefin text-[#42536A] text-[18px] ">hello@accoutreafrica.com</p>
             
             <div className="flex justify-between mt-[14px] w-[80%] md:w-100 mx-auto ">
-            <img src="facebook.png" className="w-[16%] h-[fit-content]" />
-            <img src="linkedin.png" className="w-[16%] h-[fit-content]" />
-            <img src="twitter.png" className="w-[16%] h-[fit-content]" />
-            <img src="instagram.png" className="w-[16%] h-[fit-content]" />
+            <img src="facebook.png" className="w-[16%]" />
+            <img src="linkedin.png" className="w-[16%]" />
+            <img src="twitter.png" className="w-[16%]" />
+            <img src="instagram.png" className="w-[16%]" />
 
             </div>
 

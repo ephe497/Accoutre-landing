@@ -2,11 +2,8 @@ import React, { useState } from "react";
 import { BsPersonFill } from "react-icons/bs";
 import { TbMail } from "react-icons/tb";
 
-export default function PopUp() {
-  const [showModal, setShowModal] = useState(false)
-  const toggleModal = () =>{
-    setShowModal(false)
-  }
+export default function PopUp({toggleModal}) {
+
 
     return(
 <>
@@ -16,7 +13,7 @@ export default function PopUp() {
         <span onClick={toggleModal} className="cursor-pointer hover:text-[#000] text-[#aaa] float-right text-[28px] mr-[20px] mt-[20px] font-bold ">&times;</span>
            <div className="py-[60px] md:py-[100px]">
             <div className="w-[80%] md:w-[60%] m-auto"> 
-                <img src="logoo.png" className="w-[70%] m-auto h-[fit-content] " />
+                <img src="logoo.png" className="w-[70%] m-auto " />
                 <div className="mt-[50px]">
                     <div className="mb-4 relative">
                     
