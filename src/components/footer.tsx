@@ -13,7 +13,7 @@ const josefin = Josefin_Sans({
 export default function Footer() {
 return(
     <>
-    <div className="footer py-[51px] ">
+    <div className="footer py-[51px] " id="contact">
         <div className="block md:grid grid-cols-[40fr,45fr,15fr] px-[20px] md:px-[70px] ">
             <div>
                 <img src="footerlogo.png" className="w-[50%] md:w-auto mx-auto " />

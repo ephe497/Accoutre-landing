@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 export default function Map() {
   return (
     <>
-      <div className="map">
+      <div className="map" id="map">
         {/* nsjsns */}
         <div className="block lg:grid grid-cols-2 bg-none lg:bg-[url(/map.png)] h-auto md:h-[1250px] bg-contain bg-no-repeat bg-[82%] ">
           <div className="block lg:hidden px-10">
