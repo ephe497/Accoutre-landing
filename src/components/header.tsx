@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PopUp from "./popUp";
 
-export default function Header({toggleModal}) {
+export default function Header({toggleModal}:any) {
   const [menuOpen, setMenuOpen] = useState(false);
   
 

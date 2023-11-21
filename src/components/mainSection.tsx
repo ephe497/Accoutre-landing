@@ -12,7 +12,7 @@ const styling = {
 };
 console.log(img, "mamamamam");
 
-export default function MainSection({toggleModal}) {
+export default function MainSection({toggleModal}:any) {
 
   return (
     <>

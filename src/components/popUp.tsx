@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsPersonFill } from "react-icons/bs";
 import { TbMail } from "react-icons/tb";
 
-export default function PopUp({toggleModal}) {
+export default function PopUp({toggleModal}:any) {
 
 
     return(
