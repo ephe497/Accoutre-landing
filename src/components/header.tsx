@@ -19,7 +19,7 @@ export default function Header({toggleModal}:any) {
           <img src="logo.png" className=" w-[11%] " />
           <button className="bg-[#4CBE42] font-PlusJakataSan font-[600] hidden md:block text-[10px] text-white py-[13px] px-[22px] rounded-[7px] "
           style={{
-            boxShadow:'4px 4px 4px black'
+            boxShadow:'4px 4px black'
           }}
           onClick={toggleModal}>
             Join The Waitlist
@@ -40,7 +40,7 @@ export default function Header({toggleModal}:any) {
         
         <button className="bg-[#4CBE42] font-PlusJakataSan font-[600] text-[12px] text-white py-[10px] px-[10px] rounded-[7px] "
           style={{
-            boxShadow:'4px 4px 4px black'
+            boxShadow:'4px 4px black'
           }}
           onClick={toggleModal}>
             Join The Waitlist
@@ -52,9 +52,9 @@ export default function Header({toggleModal}:any) {
   
       </div>
       <div
-          className={menuOpen ? "flex flex-col bg-[#ECEEF0] px-[20px] py-[10px] " : "hidden  w-100 space-x-4  "}
+          className={menuOpen ? "flex flex-col bg-[#ECEEF0] px-[20px] py-[20px] " : "hidden  w-100 space-x-4  "}
         >
-          <p className="text-[#0D1417] text-[11px] font-[500] font-PlusJakataSan "><a href="#map"> About us</a></p>
+          <p className="text-[#0D1417] text-[11px] pb-5 font-[500] font-PlusJakataSan "><a href="#map"> About us</a></p>
             <p className="lg:pl-[80px] text-[11px] text-[#0D1417] font-semibold  font-PlusJakataSan">
             <a href="#contact"> Contact
               </a>

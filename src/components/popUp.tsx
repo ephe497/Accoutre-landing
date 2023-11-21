@@ -29,7 +29,7 @@ export default function PopUp({toggleModal}:any) {
    
        </div>
        <button className="bg-[#4CBE42] font-PlusJakataSan font-[600] m-auto mt-[46px] block text-[11px] text-white py-[12px] px-[28px] rounded-[7px] "
-          style={{boxShadow:'4px 4px 4px black'}}
+          style={{boxShadow:'4px 4px black'}}
           onClick={toggleModal}>
             Join The Waitlist
           </button>

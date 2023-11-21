@@ -23,7 +23,7 @@ return(
        <p className="text-[#4CBE42] text-center md:text-justify font-Josefin font-[500] md:font-bold text-[24px] lg:text-[30px] md:text-[20px] leading-[24px] md:leading-[30px] ">SUSTAINABLE DEVELOPMENT </p>
     <span className="flex items-center justify-center md:justify-start text-[#4CBE42] font-Josefin font-bold text-[30px]">G  
         <span>
-        <img src="circle.png" />
+        <img src="circle.png" className="relative top-[-4px] " />
     </span>
     ALS
         </span>  
