@@ -26,7 +26,7 @@ return(
             <p className="font-[700] text-[#42536A] font-PlusJakataSan text-[28px] ">Get in touch</p>
             <p className=" mt-[14px] font-Josefin text-[#42536A] text-[18px] ">hello@accoutreafrica.com</p>
             
-            <div className="flex justify-between mt-[14px] w-[80%] md:w-100 mx-auto md:mx-0 float-right ">
+            <div className="flex justify-between mt-[14px] w-[80%] md:w-100 mx-auto md:mx-0 md:float-right float-none ">
             <img src="facebook.png" className="w-[16%]" />
             <img src="linkedin.png" className="w-[16%]" />
             <img src="twitter.png" className="w-[16%]" />
