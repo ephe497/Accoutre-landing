@@ -11,7 +11,7 @@ export default function Map() {
           </div>
         
           <div className="hidden md:flex flex-col-reverse mt-10 md:mt-0 pb-[40%]">
-            <div className="w-[90%] md:w-5/6 mx-auto text-[18px] md:text-[27px] font-bold text-[#42536A] leading-[27px] md:leading-[38px] font-PlusJakataSan">
+            <div className="w-[70%] md:w-5/6 mx-auto text-[18px] md:text-[25px] font-bold text-[#42536A] leading-[27px] md:leading-[38px] font-PlusJakataSan">
               Accoutre Africa is a skills marketplace with a social impact
               mission.
               <p className="mt-[20px] md:mt-[40px]">
