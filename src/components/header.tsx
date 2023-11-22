@@ -54,7 +54,7 @@ export default function Header({toggleModal}:any) {
       <div
           className={menuOpen ? "flex flex-col bg-[#ECEEF0] px-[20px] py-[20px] " : "hidden  w-100 space-x-4  "}
         >
-          <p className="text-[#0D1417] text-[11px] pb-5 font-[500] font-PlusJakataSan "><a href="#map"> About us</a></p>
+          <p className="text-[#0D1417] text-[11px] pb-5 font-[500] font-PlusJakataSan "><a href="#About"> About us</a></p>
             <p className="lg:pl-[80px] text-[11px] text-[#0D1417] font-[500]  font-PlusJakataSan">
             <a href="#contact"> Contact
               </a>

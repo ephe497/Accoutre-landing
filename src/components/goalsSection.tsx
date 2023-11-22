@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 export default function Goals() {
 return(
 <>
-<div className="flex md:hidden flex-col-reverse mt-8 md:mt-0]">
+<div id="About" className="flex md:hidden flex-col-reverse mt-8 md:mt-0]">
             <div className="w-[90%] md:w-5/6 mx-auto text-[18px] md:text-[27px] font-bold text-[#42536A] leading-[27px] md:leading-[38px] font-PlusJakataSan">
               Accoutre Africa is a skills marketplace with a social impact
               mission.
