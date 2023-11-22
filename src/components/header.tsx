@@ -11,7 +11,7 @@ export default function Header({toggleModal}:any) {
         <div className="hidden md:flex justify-between items-center">
           <div className="flex justify-between">
             <p className="text-[#0D1417] text-[11px] cursor-pointer font-[500] font-PlusJakataSan "> <a href="#map"> About us</a> </p>
-            <p className="lg:pl-[80px] pl-[30px] cursor-pointer text-[11px] text-[#0D1417] font-semibold  font-PlusJakataSan">
+            <p className="lg:pl-[80px] pl-[30px] cursor-pointer text-[11px] text-[#0D1417] font-[500] font-PlusJakataSan">
              <a href="#contact"> Contact
               </a>
             </p>
@@ -35,7 +35,7 @@ export default function Header({toggleModal}:any) {
           }} />
         </div>
         
-        <div className="flex justify-between w-[55%] ">
+        <div className="flex justify-between w-[63%] ">
            <img src="minilogo.png" />
         
         <button className="bg-[#4CBE42] font-PlusJakataSan font-[600] text-[12px] text-white py-[10px] px-[10px] rounded-[7px] "
@@ -55,7 +55,7 @@ export default function Header({toggleModal}:any) {
           className={menuOpen ? "flex flex-col bg-[#ECEEF0] px-[20px] py-[20px] " : "hidden  w-100 space-x-4  "}
         >
           <p className="text-[#0D1417] text-[11px] pb-5 font-[500] font-PlusJakataSan "><a href="#map"> About us</a></p>
-            <p className="lg:pl-[80px] text-[11px] text-[#0D1417] font-semibold  font-PlusJakataSan">
+            <p className="lg:pl-[80px] text-[11px] text-[#0D1417] font-[500]  font-PlusJakataSan">
             <a href="#contact"> Contact
               </a>
             </p>

@@ -25,7 +25,7 @@ export default function MainSection({toggleModal}:any) {
               Are you a skilled professional?
             </div>
             <div className="w-100">
-              <div className="bg-[#ECEEF0] font-Josefin md:font-PlusJakataSan font-[700]  text-[#42536A] text-[16px] md:text-[18px] md:text-[30px] py-6 ">
+              <div className="bg-[#ECEEF0] font-Josefin md:font-PlusJakataSan font-[700]  text-[#42536A] text-[16px] md:text-[18px] py-6 ">
                 Looking to grow your business?
               </div>
             </div>
@@ -34,7 +34,7 @@ export default function MainSection({toggleModal}:any) {
         {/* <div className="mt-[57px] lg:mt-[100px] px-[30px] md:px-[50px] lg:px-[80px] ">
         
         </div> */}
-        <div className="flex justify-center my-[26px] mb-[33px]">
+        <div className="flex justify-center my-[40px]">
           <button className="bg-[#4CBE42] font-PlusJakataSan font-[600] block text-[12px] md:text-[11px] text-white py-[10px] md:py-[12px] px-[10px] md:px-[28px] rounded-[7px] "
           style={{boxShadow:'4px 4px black'}}
           onClick={toggleModal}>

@@ -15,7 +15,7 @@ return(
             </div>
           </div>
 
-<div className="bg-[white] py-[30px] block md:flex justify-center ">
+<div className="bg-[white] py-[30px] md:py-[50px] block md:flex justify-center ">
 
     <div className="w-[77%] mx-auto ">
 <div className="block md:grid grid-cols-[30fr,70fr] items-center justify-center ">

@@ -5,7 +5,7 @@ export default function Map() {
     <>
       <div className="map" id="map">
         {/* nsjsns */}
-        <div className="block lg:grid grid-cols-2 bg-none lg:bg-[url(/map.png)] h-auto md:h-[1250px] bg-contain bg-no-repeat bg-[80%] ">
+        <div className="block lg:grid grid-cols-2 bg-none lg:bg-[url(/map.png)] h-auto md:h-[1250px] bg-contain bg-no-repeat bg-center ">
           <div className="block lg:hidden px-10">
               <img src="map.png" className="" />
           </div>
