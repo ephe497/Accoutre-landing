@@ -1,15 +1,23 @@
 import React, { useState } from "react";
 import { BsPersonFill } from "react-icons/bs";
 import { TbMail } from "react-icons/tb";
+import Success from "./success";
+import { constants } from "buffer";
 
 export default function PopUp({toggleModal}:any) {
-
+  const [showSucces, setShowSucces] = useState(false)
+  const [showFirstPop, setShowFirstPop] = useState(true)
+  
+  const success = () =>{
+    setShowSucces(!showSucces)
+    setShowFirstPop(!showFirstPop)
+  }
 
     return(
 <>
 <div className="fixed z-[1] pt-[100px] left-0 top-0 w-full h-full overflow-auto bg-[0,0,0] bg-[rgba(0,0,0,0.4)]">
         
-        <div className="bg-[#FDFFFD] w-[80%] md:w-[40%] m-auto rounded-[14px] ">
+        <div className={showFirstPop? "bg-[#FDFFFD] w-[80%] md:w-[40%] m-auto rounded-[14px] ": "hidden"}>
         <span onClick={toggleModal} className="cursor-pointer hover:text-[#000] text-[#aaa] float-right text-[28px] mr-[20px] mt-[20px] font-bold ">&times;</span>
            <div className="py-[60px] md:py-[100px]">
             <div className="w-[80%] md:w-[60%] m-auto"> 
@@ -30,7 +38,7 @@ export default function PopUp({toggleModal}:any) {
        </div>
        <button className="bg-[#4CBE42] font-PlusJakataSan font-[600] m-auto mt-[46px] block text-[11px] text-white py-[12px] px-[28px] rounded-[7px] "
           style={{boxShadow:'4px 4px black'}}
-          onClick={toggleModal}>
+          onClick={success}>
             Join The Waitlist
           </button>
          
@@ -38,6 +46,9 @@ export default function PopUp({toggleModal}:any) {
             </div> 
             
         </div>
+
+        { showSucces && <Success toggleModal={toggleModal} /> }
+      
 
 </div>
 </>
