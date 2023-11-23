@@ -19,7 +19,7 @@ export default function PopUp({toggleModal}:any) {
     });
   
 
-    const handleChange = (e) => {
+    const handleChange = (e:any) => {
       const { name, value } = e.target;
       setFormData({
         ...formData,
@@ -32,8 +32,8 @@ export default function PopUp({toggleModal}:any) {
       });
     };
   
-    const handleSubmit = (e) => {
-      e.preventDefault();
+    const handleSubmit = (event:any) => {
+      event.preventDefault();
   
       // Perform validation
       let valid = true;
